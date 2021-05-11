@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+  <section id="home">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="toggle"></div>
+    </header>
+    <div class="text">
+      <h1>Never Stop</h1>
+      <h3>Traveling</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="img/facebook.png"></a></li>
+      <li><a href="#"><img src="img/instagram.png"></a></li>
+      <li><a href="#"><img src="img/twitter.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+ <div id="gallery">
+   <h2>Gallery</h2>
+          <div class="slider">
+            <div id="arrow-left" class="arrow"></div>
+              <div class="slide slide1">
+                  <div class="slide-content">
+                      <span>Alps</span>
+                  </div>
+              </div>
+              <div class="slide slide2">
+                <div class="slide-content">
+                    <span>Maldives</span>
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <span>New York</span>
+                </div>
+            </div>
+            <div id="arrow-right" class="arrow"></div>
+          </div>
+    </div>
+  <section id="destinations" >
+    <div class="title">
+      <h2>Featured Destinations</h2>
+    </div>
+    <div class="container">
+      <div class="destination">
+        <h3>Greece</h3>
+        <img src="img/travel-1.jpg" class="img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit fuga vero, natus numquam tenetur dicta nihil blanditiis hic accusamus rem quisquam ?</p>
+      </div>
+      <div class="destination">
+        <h3>France</h3>
+        <img src="img/travel-2.jpg" class="img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit fuga vero, natus numquam tenetur dicta nihil blanditiis hic accusamus rem quisquam ?</p>
+      </div>
+      <div class="destination">
+        <h3>Australia</h3>
+        <img src="img/travel-3.jpg" class="img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit fuga vero, natus numquam tenetur dicta nihil blanditiis hic accusamus rem quisquam ?</p>
+      </div>
+    </div>
+  </section>
+  <section id="booking">
+    <h2>Where do you want to go?</h2>
+    <form class="flex-form">
+      <input type="search" placeholder="Where do you want to go">
+
+      <label for="from">From</label>
+      <input type="date" name="from">
+
+      <label for="from">To</label>
+      <input type="date" name="to">
+
+      <select name="" id="">
+        <option value="1">1 Guest</option>
+        <option value="2">2 Guests</option>
+        <option value="3">3 Guests</option>
+        <option value="4">4 Guests</option>
+      </select>
+
+      <input type="submit" value="Search">
+    </form>
+  </section>
+  <footer id="contact">
+    <div class="mainContainer">
+      <div class="formTitle">
+        <h3>Create Account</h3>
+      </div>
+    <form class="form" id="form">
+      <div class="singleContainer">
+      <label>Username</label>
+      <input type="text" placeholder="username" id="username">
+      <i class="fa fa-check-circle"></i>
+      <i class="fa fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+
+      <div class="singleContainer">
+      <label>Email</label>
+      <input type="email" placeholder="email@" id="email">
+      <i class="fa fa-check-circle"></i>
+      <i class="fa fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+
+    <div class="singleContainer">
+      <label>Password</label>
+      <input type="password" placeholder="password" id="password">
+      <i class="fa fa-check-circle"></i>
+      <i class="fa fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+
+
+    <div class="singleContainer">
+      <label>Password check</label>
+      <input type="password" placeholder="password two" id="password2">
+      <i class="fa fa-check-circle"></i>
+      <i class="fa fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+      <button>Submit</button>
+    </form>
+  </div>
+  </footer>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
